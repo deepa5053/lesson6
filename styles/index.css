@@ -1,14 +1,16 @@
 .logo{
 position: absolute;
 width: 1400px;
-height: 78px;
-top: 20px;  
+height: 78px; 
 margin-top: 25px;
 margin-bottom: 24.03px;
 margin-left: 186.15px;
 margin-right: 1070.73px; 
 }
 .heading-1{
+margin-left: 46.43%;
+margin-right: 28.57%;
+margin-top: calc(50% - 28px/2 - 1px);
 width: 350px;
 height: 28px;
 position: absolute;
@@ -18,7 +20,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 28px;
 color: #2F281E;
-display: flex;
+
 }
 .btn-1{
     background-color: aliceblue;
@@ -94,23 +96,25 @@ color: aliceblue;
 border: none;
 }
 .video{
+padding: 10px;
+margin: 20px;
 position: absolute;
 width: 161px;
 height: 23px;
 margin-left: 205px;
 margin-top: 293px;
-color: #FF9900;
+color: orange;
 display: flex;
 align-items: flex-end;
 justify-content: left;
 }
 .video> div{
     position: absolute;
-margin-left: 10.87%;
-margin-right: 76.71%;
-margin-top: 6.52%;
-margin-bottom: 19.57%;
-display: flex;
+margin-left: 339px;
+margin-right: 926px;
+margin-top: 550px;
+margin-bottom: 3306px;
+color: #FF9900;
 background: white;
 border-radius: 1.125px;
 padding: 2px;
@@ -121,7 +125,7 @@ align-items: baseline;
 width: 605px;
 height: 496px;
 margin-left: 666px;
-margin-top: 128px;
+margin-top: 5px;
 margin-bottom: 3219px;
 margin-right: 129px;
 }
