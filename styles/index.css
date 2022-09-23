@@ -1,44 +1,55 @@
 body{
-width: 1400px;
-height: 78px;
-left: 0px;
-top: 20px;
+width: 100%;
+font-family: 'Poppins';
 display: flex;
-flex-direction: row;
+justify-content: flex-start;
+
+flex-direction: column;
+margin: 20px;
+}
+nav{
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+max-width: 1110px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
 }
 header{
-display: flex;
-flex-direction: row;
-left: 144px;
-right: 1070px;
-top: 22px;
-bottom: 24px;
+max-width: 1110px;
+width: 100%;
+min-height: 604px;
 }
-.image{
-width: 30.16px;
-height: 30px;
-left: 143.92px;
-top: 22px;
+.logo{
+width: 185px;
 }
 ul{
-height: 28px;
-bottom: 26px;
-left: 650px;
-right: 400px;
-top: 24px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-/* identical to box height, or 200% */
+list-style: none;
 display: flex;
+max-width: 350px;
+width: 100%;
 justify-content: space-around;
-align-items: center;
-flex-direction: row;
-color: #2F281E;
-
+}
+li{
+list-style: none;
+}
+li>a{
+    height: 28px;
+    left: 46.43%;
+    right: 28.57%;
+    top: calc(50% - 28px/2 - 1px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn{
     display: flex;
@@ -73,7 +84,6 @@ height: 331px;
 left: 145px;
 top: 211px;
 display: flex;
-align-items: flex-start;
 justify-content: left;
 flex-direction: column;
 }
@@ -83,7 +93,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 44px;
 line-height: 54px;
-
+display: flex;
 }
 p{
     font-family: 'Poppins';
@@ -91,14 +101,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 28px;
-
+display: flex;
 }
 
 .img-1{
-    width: 605px;
+width: 605px;
 height: 496px;
 left: 666px;
 top: 128px;
 display: flex;
 justify-content: right;
+align-items: flex-start;
 }
